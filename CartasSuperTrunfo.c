@@ -6,18 +6,18 @@ int main(){
     char Codigo[20] = "B01";
     char Nome[20] = "São Paulo";
     int População =  12000000;
-    float Área = 150000;
+    float Área = 150000; //Não pode usar acento no nome da variável
     float PIB = 830000000;
-    int Número = 40;
+    int Número = 40;//Não pode usar acento no nome da variável
     
     char Carta2[20] = "02";
     char Estado1[20] = "Rio de Janeiro";
     char Codigo1[20] = "B02";
     char Nome1[20] = "Rio de Janeiro";
     int População1 =  6200000;
-    float Área1 = 1200000;
+    float Área1 = 1200000;//Não pode usar acento no nome da variável
     float PIB1 = 33000000;
-    int Número1 = 50;
+    int Número1 = 50;//Não pode usar acento no nome da variável
  
     printf("Carta1: %s\n", Carta1);
     printf("Estado: %s\n", Estado);
