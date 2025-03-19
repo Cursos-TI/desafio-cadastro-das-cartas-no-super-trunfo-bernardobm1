@@ -2,41 +2,41 @@
 
 int main(){
     char Carta1[20] = "01";
-    char Estado[20] = "São Paulo";
+    char Estado[20] = "Sao Paulo";
     char Codigo[20] = "B01";
-    char Nome[20] = "São Paulo";
-    int População =  12000000;
-    float Área = 150000; //Não pode usar acento no nome da variável
+    char Nome[20] = "Sao Paulo";
+    int Populacao =  12000000;
+    float Area = 150000; //Não pode usar acento no nome da variável
     float PIB = 830000000;
-    int Número = 40;//Não pode usar acento no nome da variável
+    int Numero = 40;//Não pode usar acento no nome da variável
     
     char Carta2[20] = "02";
     char Estado1[20] = "Rio de Janeiro";
     char Codigo1[20] = "B02";
     char Nome1[20] = "Rio de Janeiro";
-    int População1 =  6200000;
-    float Área1 = 1200000;//Não pode usar acento no nome da variável
+    int Populacao1 =  6200000;
+    float Area1 = 1200000;//Não pode usar acento no nome da variável
     float PIB1 = 33000000;
-    int Número1 = 50;//Não pode usar acento no nome da variável
+    int Numero1 = 50;//Não pode usar acento no nome da variável
  
     printf("Carta1: %s\n", Carta1);
     printf("Estado: %s\n", Estado);
     printf("Codigo da Carta: %s\n", Codigo);
     printf("Nome da Cidade: %s\n", Nome);
-    printf("População: %d\n", População);
-    printf("Área em km²: %2.f\n", Área);
+    printf("Populacao: %d\n", Populacao);
+    printf("Area em km²: %2.f\n", Area);
     printf("PIB: %2.f\n", PIB);
-    printf("Número de Pontos Turísticos: %d\n", Número);
+    printf("Numero de Pontos Turísticos: %d\n", Numero);
 
     printf("\n");
     printf("Carta2: %s\n", Carta2);
     printf("Estado: %s\n", Estado1);
     printf("Codigo da Carta: %s\n", Codigo1);
     printf("Nome da Cidade: %s\n", Nome1);
-    printf("População: %d\n", População1);
-    printf("Área em km²: %2.f\n", Área1);
+    printf("Populacao: %d\n", Populacao1);
+    printf("Area em km²: %2.f\n", Area1);
     printf("PIB: %2.f\n", PIB1);
-    printf("Número de Pontos Turísticos: %d\n", Número1);
+    printf("Numero de Pontos Turísticos: %d\n", Numero1);
 
 
 
